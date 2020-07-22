@@ -25,7 +25,7 @@ df = pd.DataFrame({
     "City": ["SF", "SF", "SF", "Montreal", "Montreal", "Montreal"]
 })
 
-fig = px.bar(df, y="Fruit", x="Amount", color="City", barmode="group")
+fig = px.bar(df, y="Fruit", x="Amount", color="City", barmode="group", title='Pcontinent')
 ## Plot related to the analisys
 categories = ['processing cost','mechanical properties','chemical stability',
               'thermal stability', 'device integration']
@@ -84,21 +84,36 @@ def generate_table(dataframe, max_rows=10):
 app.layout = html.Div(children=[
 
     html.Nav(className = "nav nav-pills"),
-    html.H1(children='Customer Segmentation - Starbucks'),
-
+    html.H1(children='Customer Segmentation - Starbucks', style = {
+                                                        "color": "white",
+                                                        "text-align" : "center",
+                                                        "font-size": "28px",
+                                                        "background-color":"darkgreen",
+                                                        "display":"flex",
+                                                        "height":"70px",
+                                                        "margin": "0"
+                                                        }),
     html.Div(children='''
         This dash presents the results of a customer segmentation project based on a starbucks survey
-    '''),
+    ''',
+    style = {"background-color":"whitesmoke","color": "black", "font-size": "15px", "height":"60px", "margin":"0"}
+    ),
 
     dcc.Graph(
         id='example-graph',
-        figure=fig2
+        figure=fig2,
+        style = { "display": "inline-block", "width":"50%"
+        }
     ),
     dcc.Graph(
         id='second-graph',
-        figure=fig3
+        figure=fig3,
+        style = { "display": "inline-block", "width":"50%"
+        }
     ),
-    html.H4(children='Mode of Variables per cluster'),
+    html.H4(children='Mode of Variables per cluster', 
+    style = {"background-color":"whitesmoke","color": "black", "font-size": "24px", "height":"60px", "margin":"0"}
+    ),
     generate_table(df2)
 ])
 
