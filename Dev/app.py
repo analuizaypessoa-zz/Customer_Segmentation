@@ -60,7 +60,7 @@ df2 = pd.read_csv("../Outputs/Clusters_Mode.csv", index_col=[0]) ## read df
 df2 = df2[['Labels', 'GENDER', 'AGE', 'EMPLOYMENT', 'INCOME', 'FREQUENCY_VISIT',
        'TIME_PER_VISIT',
        'DISTANCE_TO_NEAREST_STORE', 'MEMBER', 'SPEND_PER_VISIT', 
-       'BUSINESS_OR_FRIENDS', 'POTENTIAL_CLIENT', 'FG_DIGITAL_MEDIA', 'FG_STARBUCKS_WEBSITE', 'FG_EMAIL',
+    'FG_DIGITAL_MEDIA', 
        'FG_FISIC']] ### selecting the desired columns to show
 df2= df2.sort_values(by = 'Labels')
 df3 = df2['Labels'].value_counts()
@@ -78,7 +78,12 @@ def generate_table(dataframe, max_rows=10):
                 html.Td(dataframe.iloc[i][col]) for col in dataframe.columns
             ]) for i in range(min(len(dataframe), max_rows))
         ])
-    ])
+    ], style = {"background-color": "#f5f5f5",
+                "font-size":"0.75vw",
+                "border-bottom": "1px solid #ddd",
+                "width": "100vw",
+                "height": "100vh"}
+    )
 
 
 app.layout = html.Div(children=[
@@ -150,13 +155,9 @@ app.layout = html.Div(children=[
                 )
 
         ], style = {"width": "100%", "paffing": 10, 'columnCount': 2 } ),
-    dcc.Graph(
-        id='second-graph',
-        figure=fig3,
-        style = { "display": "inline-block", "width":"40%"}
-    ),
+
     html.H4(children='Mode of Variables per cluster', 
-    style = {"background-color":"whitesmoke","color": "black", "font-size": "24px", "height":"60px", "margin":"0"}
+    style = {"background-color":"gainsboro","color": "black", "font-size": "24px", "height":"60px", "margin":"0"}
     ),
     generate_table(df2)
 ], style = {"width": "100%", "paffing": 10, 'columnCount': 1 })
