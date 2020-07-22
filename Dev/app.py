@@ -96,26 +96,70 @@ app.layout = html.Div(children=[
     html.Div(children='''
         This dash presents the results of a customer segmentation project based on a starbucks survey
     ''',
-    style = {"background-color":"whitesmoke","color": "black", "font-size": "15px", "height":"60px", "margin":"0"}
+    style = {"background-color":"gainsboro","color": "black", "font-size": "15px", "height":"45px", "margin":"0"}
     ),
 
-    dcc.Graph(
-        id='example-graph',
-        figure=fig2,
-        style = { "display": "inline-block", "width":"50%"
-        }
-    ),
+    html.Div(children = [  
+            html.Div(children = [
+                html.Br(),
+                html.Label('Multi-Select Dropdown'),
+                dcc.Dropdown(
+                options=[
+                    {'label': 'New York City', 'value': 'NYC'},
+                    {'label': u'Montréal', 'value': 'MTL'},
+                    {'label': 'San Francisco', 'value': 'SF'}
+                ],
+                value=['MTL', 'SF'],
+                multi=True
+                ),
+                html.Br(),
+                html.Label('Text Input'),
+                dcc.Input(value='MTL', type='text'),
+                html.Br(),
+                html.Label('Slider'),
+                dcc.Slider(
+                    min=0,
+                    max=9,
+                    marks={i: 'Label {}'.format(i) if i == 1 else str(i) for i in range(1, 6)},
+                    value=5,),
+                html.Br(),
+                dcc.RadioItems( options=[
+                        {'label': 'New York City', 'value': 'NYC'},
+                        {'label': u'Montréal', 'value': 'MTL'},
+                        {'label': 'San Francisco', 'value': 'SF'}],
+                    value='MTL'),
+                html.Br(),
+                dcc.Dropdown(id = "drop_down_2", options=[
+                        {'label': 'New York City', 'value': 'NYC'},
+                        {'label': u'Montréal', 'value': 'MTL'},
+                        {'label': 'San Francisco', 'value': 'SF'}
+                    ], value= "MTL")
+                    ],
+                                        style = {
+                                            "text-align": "center",
+                                            "height":"460px",
+                                            "background-color":"whitesmoke",
+                                            "margin": "0",
+                                            "padding": "0",
+                                            
+                                        }
+                ),
+            dcc.Graph(
+                id='example-graph',
+                figure=fig2,
+                )
+
+        ], style = {"width": "100%", "paffing": 10, 'columnCount': 2 } ),
     dcc.Graph(
         id='second-graph',
         figure=fig3,
-        style = { "display": "inline-block", "width":"50%"
-        }
+        style = { "display": "inline-block", "width":"40%"}
     ),
     html.H4(children='Mode of Variables per cluster', 
     style = {"background-color":"whitesmoke","color": "black", "font-size": "24px", "height":"60px", "margin":"0"}
     ),
     generate_table(df2)
-])
+], style = {"width": "100%", "paffing": 10, 'columnCount': 1 })
 
 if __name__ == '__main__':
     app.run_server(debug=True)
