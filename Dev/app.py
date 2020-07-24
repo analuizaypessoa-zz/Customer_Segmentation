@@ -24,8 +24,8 @@ df = pd.DataFrame({
     "Amount": [4, 1, 2, 2, 4, 5],
     "City": ["SF", "SF", "SF", "Montreal", "Montreal", "Montreal"]
 })
-
-fig = px.bar(df, y="Fruit", x="Amount", color="City", barmode="group", title='Pcontinent')
+df3 = pd.read_csv("../Outputs/Clusters_Mode.csv", index_col=[0])
+fig = px.bar(df, y="Fruit", x="Amount", color="City", barmode="group")
 ## Plot related to the analisys
 categories = ['processing cost','mechanical properties','chemical stability',
               'thermal stability', 'device integration']
@@ -66,7 +66,7 @@ df2= df2.sort_values(by = 'Labels')
 df3 = df2['Labels'].value_counts()
 df3 = df3.reset_index(name = 'Contagem')
 fig3 = px.pie(df3, values='Contagem', names='index', title='Population of European continent')
-
+available_indicators = df2["INCOME"].unique()
 ## TABLE CLUSTERS RESULTS
 def generate_table(dataframe, max_rows=10):
     return html.Table([
@@ -152,7 +152,12 @@ app.layout = html.Div(children=[
             dcc.Graph(
                 id='example-graph',
                 figure=fig2,
-                )
+                ),
+            dcc.Dropdown(
+                id='yaxis-column',
+                options=[{'label': i, 'value': i} for i in available_indicators],
+                value='total_income'
+            ),
 
         ], style = {"width": "100%", "paffing": 10, 'columnCount': 2 } ),
 
