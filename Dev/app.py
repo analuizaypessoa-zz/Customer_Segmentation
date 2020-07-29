@@ -9,6 +9,7 @@ import dash_html_components as html
 import plotly.express as px
 import pandas as pd
 import plotly.graph_objects as go
+import numpy as np
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
@@ -24,6 +25,37 @@ df = pd.DataFrame({
     "Amount": [4, 1, 2, 2, 4, 5],
     "City": ["SF", "SF", "SF", "Montreal", "Montreal", "Montreal"]
 })
+df2 = pd.read_csv("../Outputs/modelv1.csv")
+
+
+def table_Cat(col1,col2):
+    NM = df[[col1,col2]]
+    table = pd.pivot_table(NM, index = [col1],
+                          columns = [col2], aggfunc = len, fill_value = 0)
+    table_sort = table.sort_values([0,1], ascending = False)
+    return table_sort
+
+cols = ['GENDER', 'AGE', 'EMPLOYMENT', 'INCOME', 'FREQUENCY_VISIT',
+       'HOW_DO_YOU_ENJOY_STARBUCKS', 'TIME_PER_VISIT',
+       'DISTANCE_TO_NEAREST_STORE', 'MEMBER', 'SPEND_PER_VISIT', 'QUALITY_EV',
+       'PRICE_EV', 'PROMOTIONS_EV', 'AMBIANCE_EV', 'WIFI_EV', 'SERVICE_EV',
+       'BUSINESS_OR_FRIENDS', 'POTENTIAL_CLIENT', 'FG_cake', 'FG_coffee',
+       'FG_colddrinks', 'FG_jawschip', 'FG_juices', 'FG_never', 'FG_pastries',
+       'FG_sandwiches', 'FG_DIGITAL_MEDIA', 'FG_STARBUCKS_WEBSITE', 'FG_EMAIL',
+       'FG_FRIENDS', 'FG_FISIC']
+
+def df_col_table_Cat(df, cols):
+    df_list = []
+    a = df[cols]
+    for col in a.columns:
+        out = table_Cat(col,'Labels')
+        out.reset_index(inplace = True)
+        df_list.append(out)
+    return df_list
+
+
+df_l = df_col_table_Cat(df2, cols)
+
 df3 = pd.read_csv("../Outputs/Clusters_Mode.csv", index_col=[0])
 fig = px.bar(df, y="Fruit", x="Amount", color="City", barmode="group")
 ## Plot related to the analisys
@@ -67,6 +99,8 @@ df3 = df2['Labels'].value_counts()
 df3 = df3.reset_index(name = 'Contagem')
 fig3 = px.pie(df3, values='Contagem', names='index', title='Population of European continent')
 available_indicators = df2["INCOME"].unique()
+
+
 ## TABLE CLUSTERS RESULTS
 def generate_table(dataframe, max_rows=10):
     return html.Table([
@@ -135,10 +169,9 @@ app.layout = html.Div(children=[
                     value='MTL'),
                 html.Br(),
                 dcc.Dropdown(id = "drop_down_2", options=[
-                        {'label': 'New York City', 'value': 'NYC'},
-                        {'label': u'Montréal', 'value': 'MTL'},
-                        {'label': 'San Francisco', 'value': 'SF'}
-                    ], value= "MTL")
+                        {'label': i , 'value': i} for i in cols
+                        
+                    ], value= "GENDER")
                     ],
                                         style = {
                                             "text-align": "center",
