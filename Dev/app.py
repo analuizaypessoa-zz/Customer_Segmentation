@@ -54,7 +54,7 @@ def df_col_table_Cat(df, cols):
     return df_list
 
 
-df_l = df_col_table_Cat(df2, cols)
+#df_l = df_col_table_Cat(df2, cols)
 
 df3 = pd.read_csv("../Outputs/Clusters_Mode.csv", index_col=[0])
 fig = px.bar(df, y="Fruit", x="Amount", color="City", barmode="group")
