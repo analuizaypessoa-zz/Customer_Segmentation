@@ -7,6 +7,7 @@ The project is divided in  3 main folders:
 -INPUTS : Contain: raw starbucks dataset and cleaned data set to start clustering models
 
 -DEV:
+
      - DataPrep: Code for data preparation and cleaning (jupyternb)
      - Models: Kprototypes model and Statistical Analysis (jupyternb)
      - DashApp : A WIP dash app wich contains a dataviz of segmentation main outputs (python).
