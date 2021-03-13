@@ -1,19 +1,51 @@
 # Customer_Segmentation
 
-The objective of this project is to better understand customers profile based on starbucks kaggle dataset.
+The aim of this project is to use clustering models with mixed data types to better understand customers profiles and gain insights.
 
-The project is divided in  3 main folders:
 
-     -INPUTS : Contain: raw starbucks dataset and cleaned data set to start clustering models
+## Data sources:
 
-     -DEV:
+To use mixed data types (categorical and numerical), I used as input Starbucks kaggle dataset:  [link](https://www.kaggle.com/mahirahmzh/starbucks-customer-retention-malaysia-survey?select=Starbucks+satisfactory+survey.csv)
 
-     - DataPrep: Code for data preparation and cleaning (jupyternb)
-     - Models: Kprototypes model and Statistical Analysis (jupyternb)
-     - DashApp : A WIP dash app wich contains a dataviz of segmentation main outputs (python).
-     
-     -Outputs: Cointains model outputs. ( Customer database with labels and statistical analysis with mode) 
+## Setting
 
-WIP:
-I am also preparing an alternative dataviz to dash with google datastudio
-https://datastudio.google.com/reporting/92343e86-9e99-4ec2-9400-d7223fd95fe7
+First create a dedicated conda environment:
+
+```bash
+conda create -y -n customer_segmentation python=3.6
+conda activate customer_segmentation
+conda install -c anaconda ipykernel
+python -m ipykernel install --user --name=customer_segmentation
+```
+
+Install all the requirements:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Folder structure :
+
+Customer segmentation has the following structure:
+
+```
+CUSTOMER_SEGMENTATION/
+├── bin/
+│   ├── kprototypes.pickle  >> model binary saved 
+├── data/
+│   ├── Cleaned/
+│   │   ├── df.csv
+│   ├── Raw/
+│   │   ├── starbucks_dataset_raw.csv
+├── notebooks/
+│   ├── dataPrep.ipynb
+│   ├── dataAnalysis.ipynb
+│   ├── Kprototypes.ipynb
+├── Outputs/
+│   ├── Clusters_Mode.csv
+│   ├── model_(date).csv
+├── requirements.txt
+```
+
+###  Insights dataviz:
+- Dashboard with main insights and clusters found : [link to Google DataStudio](https://datastudio.google.com/reporting/92343e86-9e99-4ec2-9400-d7223fd95fe7)

@@ -1,0 +1,123 @@
+GENDER,AGE,EMPLOYMENT,INCOME,FREQUENCY_VISIT,HOW_DO_YOU_ENJOY_STARBUCKS,TIME_PER_VISIT,DISTANCE_TO_NEAREST_STORE,MEMBER,SPEND_PER_VISIT,QUALITY_EV,PRICE_EV,PROMOTIONS_EV,AMBIANCE_EV,WIFI_EV,SERVICE_EV,BUSINESS_OR_FRIENDS,POTENTIAL_CLIENT,FG_cake,FG_coffee,FG_colddrinks,FG_jawschip,FG_juices,FG_never,FG_pastries,FG_sandwiches,FG_DIGITAL_MEDIA,FG_STARBUCKS_WEBSITE,FG_EMAIL,FG_FRIENDS,FG_FISIC,Labels
+Female,From 20 to 29,Student,"Less than RM25,000",Rarely,Dine in,Between 30 minutes to 1 hour,within 1km,Yes,Less than RM20,4,3,5,5,4,4,3,Yes,0,1,0,0,0,0,0,0,1,1,1,0,0,9
+Female,From 20 to 29,Student,"Less than RM25,000",Rarely,Take away,Below 30 minutes,1km - 3km,Yes,Less than RM20,4,3,4,4,4,5,2,Yes,0,0,1,0,0,0,1,0,1,0,0,0,1,9
+Male,From 20 to 29,Employed,"Less than RM25,000",Monthly,Dine in,Between 30 minutes to 1 hour,more than 3km,Yes,Less than RM20,4,3,4,4,4,4,3,Yes,0,1,0,0,0,0,0,0,0,0,0,0,1,4
+Female,From 20 to 29,Student,"Less than RM25,000",Rarely,Take away,Below 30 minutes,more than 3km,No,Less than RM20,2,1,4,3,3,3,3,No,0,1,0,0,0,0,0,0,0,0,0,1,0,6
+Male,From 20 to 29,Student,"Less than RM25,000",Monthly,Take away,Between 30 minutes to 1 hour,1km - 3km,No,Around RM20 - RM40,3,3,4,2,2,3,3,Yes,0,1,0,0,0,0,0,1,1,1,0,0,0,7
+Female,From 20 to 29,Student,"Less than RM25,000",Rarely,Dine in,Between 30 minutes to 1 hour,more than 3km,No,Less than RM20,4,3,5,5,4,5,4,Yes,0,0,1,0,0,0,0,0,1,0,0,0,0,2
+Female,From 20 to 29,Student,"Less than RM25,000",Rarely,Dine in,Below 30 minutes,within 1km,Yes,Around RM20 - RM40,5,5,5,5,3,5,5,Yes,0,1,0,0,0,0,0,0,1,1,0,0,0,2
+Male,From 20 to 29,Employed,"RM50,000 - RM100,000",Rarely,Dine in,Between 30 minutes to 1 hour,more than 3km,Yes,Less than RM20,4,2,3,3,3,3,3,Yes,0,1,1,0,0,0,0,0,1,1,1,1,0,0
+Female,From 20 to 29,Student,"Less than RM25,000",Rarely,Drive-thru,Below 30 minutes,more than 3km,Yes,More than RM40,5,4,4,4,4,4,4,Yes,0,0,1,0,0,0,0,0,1,1,0,1,0,2
+Male,From 20 to 29,Employed,"Less than RM25,000",Monthly,Take away,Below 30 minutes,more than 3km,No,Around RM20 - RM40,4,3,3,4,3,3,4,Yes,0,1,0,0,0,0,0,0,1,0,0,1,0,4
+Female,From 20 to 29,Student,"Less than RM25,000",Rarely,Dine in,Below 30 minutes,more than 3km,No,Less than RM20,4,1,4,5,3,3,4,Yes,0,0,1,0,0,0,0,0,1,0,0,0,0,3
+Female,From 20 to 29,Student,"Less than RM25,000",Rarely,Dine in,Between 30 minutes to 1 hour,more than 3km,No,Less than RM20,3,2,4,4,3,4,4,No,0,1,0,0,0,0,0,0,1,1,0,1,0,3
+Female,From 20 to 29,Student,"Less than RM25,000",Weekly,Take away,Below 30 minutes,1km - 3km,Yes,Around RM20 - RM40,4,3,2,4,4,3,4,Yes,0,1,0,0,0,0,0,1,1,0,0,0,0,8
+Female,From 20 to 29,Student,"Less than RM25,000",Rarely,Take away,Below 30 minutes,1km - 3km,Yes,Less than RM20,4,3,4,4,4,4,3,Yes,0,1,0,0,0,0,0,0,1,0,0,0,0,9
+Female,From 20 to 29,Student,"Less than RM25,000",Rarely,Take away,Below 30 minutes,within 1km,Yes,Less than RM20,5,2,5,5,5,5,2,No,0,1,0,0,0,0,0,0,1,0,0,1,1,9
+Female,From 20 to 29,Employed,"Less than RM25,000",Rarely,Take away,Between 30 minutes to 1 hour,more than 3km,Yes,Less than RM20,4,1,5,4,3,4,4,No,0,1,0,0,0,0,0,0,0,1,0,0,0,3
+Male,From 30 to 39,Employed,"RM50,000 - RM100,000",Monthly,Drive-thru,Below 30 minutes,within 1km,Yes,Around RM20 - RM40,4,3,3,4,3,3,3,Yes,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+Male,From 20 to 29,Employed,"Less than RM25,000",Rarely,Dine in,Below 30 minutes,within 1km,Yes,Less than RM20,4,4,4,4,4,4,4,Yes,0,1,0,0,0,0,0,0,1,0,0,1,0,2
+Male,From 20 to 29,Employed,"RM25,000 - RM50,000",Weekly,Take away,Below 30 minutes,1km - 3km,Yes,Around RM20 - RM40,4,3,4,5,5,5,5,Yes,0,1,0,0,0,0,0,0,1,1,1,1,0,2
+Female,From 20 to 29,Self-employed,"RM50,000 - RM100,000",Rarely,Take away,Below 30 minutes,1km - 3km,Yes,Less than RM20,3,4,3,4,3,4,2,Yes,0,0,1,0,0,0,0,0,0,0,1,0,0,9
+Male,From 30 to 39,Employed,"RM100,000 - RM150,000",Rarely,Take away,Below 30 minutes,within 1km,Yes,Around RM20 - RM40,2,2,5,3,3,4,3,No,0,1,0,0,0,0,0,0,1,0,1,0,0,6
+Female,From 20 to 29,Employed,"Less than RM25,000",Rarely,Dine in,Below 30 minutes,within 1km,No,Around RM20 - RM40,5,3,4,3,3,4,5,Yes,0,1,0,0,0,0,0,0,1,0,0,0,0,4
+Male,From 20 to 29,Employed,"RM25,000 - RM50,000",Rarely,Dine in,More than 3 hours,within 1km,No,Less than RM20,5,2,5,5,2,4,3,No,0,1,0,0,0,0,0,0,0,0,0,1,0,4
+Female,From 20 to 29,Student,"Less than RM25,000",Monthly,Drive-thru,Between 1 hour to 2 hours,1km - 3km,Yes,Less than RM20,5,4,4,5,4,4,3,Yes,0,0,1,0,0,0,1,1,1,0,0,1,0,2
+Male,40 and above,Self-employed,"RM100,000 - RM150,000",Rarely,Dine in,Between 1 hour to 2 hours,more than 3km,No,Around RM20 - RM40,4,3,4,4,3,3,5,Yes,0,1,0,0,1,0,1,1,0,0,0,1,1,4
+Male,From 30 to 39,Employed,"More than RM150,000",Monthly,Dine in,Between 30 minutes to 1 hour,1km - 3km,Yes,Around RM20 - RM40,4,3,1,4,4,5,4,Yes,0,1,1,0,0,0,0,0,1,0,0,0,1,8
+Male,From 30 to 39,Employed,"More than RM150,000",Rarely,Drive-thru,Below 30 minutes,1km - 3km,No,Less than RM20,4,2,4,4,4,4,2,No,0,1,0,0,0,0,0,0,0,0,0,0,0,9
+Male,From 20 to 29,Self-employed,"Less than RM25,000",Monthly,Take away,Below 30 minutes,more than 3km,No,Around RM20 - RM40,5,3,4,4,3,4,3,Yes,0,1,0,0,0,0,0,0,1,0,0,0,0,4
+Male,40 and above,Self-employed,"More than RM150,000",Weekly,Drive-thru,Below 30 minutes,1km - 3km,Yes,More than RM40,4,5,3,3,3,4,5,Yes,0,1,0,0,0,0,0,0,1,1,0,1,1,8
+Female,From 20 to 29,Employed,"RM50,000 - RM100,000",Rarely,Dine in,Between 30 minutes to 1 hour,1km - 3km,Yes,Less than RM20,5,5,5,5,3,5,5,Yes,0,1,0,0,0,0,0,0,1,1,1,1,0,2
+Female,From 20 to 29,Employed,"RM25,000 - RM50,000",Monthly,Take away,Between 30 minutes to 1 hour,more than 3km,Yes,Around RM20 - RM40,3,1,4,4,3,4,4,Yes,0,1,0,0,0,0,1,1,1,1,1,1,0,3
+Female,From 20 to 29,Employed,"RM50,000 - RM100,000",Weekly,Drive-thru,Below 30 minutes,within 1km,Yes,Around RM20 - RM40,4,3,3,3,2,3,4,Yes,0,1,0,0,0,0,1,0,0,0,0,0,1,0
+Female,From 30 to 39,Employed,"RM25,000 - RM50,000",Rarely,Take away,Below 30 minutes,more than 3km,No,Around RM20 - RM40,2,3,5,5,3,5,5,Yes,0,1,0,0,0,0,0,0,1,0,0,0,0,3
+Female,From 20 to 29,Employed,"RM25,000 - RM50,000",Rarely,Dine in,Between 30 minutes to 1 hour,1km - 3km,Yes,Less than RM20,3,2,3,3,3,4,3,No,0,1,0,0,0,0,0,0,1,0,0,0,0,6
+Female,From 20 to 29,Employed,"RM25,000 - RM50,000",Rarely,Take away,Below 30 minutes,within 1km,No,Less than RM20,3,4,4,3,4,4,3,Yes,0,1,0,0,0,0,0,0,1,0,0,1,1,9
+Female,From 20 to 29,Student,"Less than RM25,000",Rarely,Take away,Below 30 minutes,more than 3km,No,Less than RM20,4,2,4,4,3,4,1,No,0,1,0,0,0,0,0,0,1,0,0,0,0,9
+Female,From 20 to 29,Self-employed,"Less than RM25,000",Rarely,Take away,Below 30 minutes,within 1km,No,Less than RM20,3,3,4,4,5,5,2,Yes,0,0,1,0,0,0,0,0,1,0,0,0,0,9
+Male,Below 20,Student,"Less than RM25,000",Rarely,Dine in,Between 1 hour to 2 hours,more than 3km,No,Less than RM20,5,2,3,4,4,3,5,Yes,0,1,0,0,0,0,0,0,1,1,0,0,0,4
+Male,From 20 to 29,Employed,"Less than RM25,000",Rarely,Take away,Below 30 minutes,more than 3km,Yes,Around RM20 - RM40,4,4,4,4,4,4,4,Yes,0,0,1,0,1,0,1,0,0,0,0,0,1,2
+Male,From 30 to 39,Employed,"RM50,000 - RM100,000",Rarely,Take away,Below 30 minutes,within 1km,Yes,Less than RM20,3,2,5,3,3,5,3,Yes,0,1,0,0,0,0,0,0,1,1,0,0,0,3
+Female,From 20 to 29,Employed,"RM25,000 - RM50,000",Never,Take away,Below 30 minutes,1km - 3km,No,Less than RM20,4,4,4,4,4,4,4,Yes,0,1,0,0,0,0,0,0,1,0,0,0,0,2
+Male,From 20 to 29,Employed,"Less than RM25,000",Monthly,Dine in,Between 30 minutes to 1 hour,within 1km,Yes,Around RM20 - RM40,5,4,5,5,3,5,5,Yes,0,1,0,0,0,0,0,0,1,1,0,0,0,2
+Female,From 20 to 29,Employed,"RM25,000 - RM50,000",Weekly,Dine in,Between 30 minutes to 1 hour,within 1km,Yes,Around RM20 - RM40,5,4,5,5,1,4,4,Yes,0,1,0,0,0,0,0,0,1,0,0,0,0,4
+Female,From 20 to 29,Employed,"Less than RM25,000",Monthly,Take away,Below 30 minutes,more than 3km,No,Around RM20 - RM40,4,4,5,4,4,5,5,Yes,0,1,0,0,0,0,1,0,1,1,1,0,1,2
+Female,Below 20,Student,"Less than RM25,000",Never,never,Below 30 minutes,1km - 3km,No,Zero,3,3,3,3,3,3,3,Yes,0,1,0,0,0,0,0,0,1,0,0,0,0,7
+Female,From 30 to 39,Student,"RM50,000 - RM100,000",Rarely,Take away,Below 30 minutes,1km - 3km,Yes,Around RM20 - RM40,5,3,4,3,4,4,4,Yes,0,1,0,0,0,0,1,0,1,0,0,0,0,4
+Female,Below 20,Student,"Less than RM25,000",Never,Dine in,Below 30 minutes,more than 3km,No,Less than RM20,3,2,5,4,3,3,5,Yes,0,0,1,0,0,0,0,0,0,0,0,1,0,3
+Female,From 20 to 29,Self-employed,"Less than RM25,000",Rarely,Take away,Between 30 minutes to 1 hour,more than 3km,No,Zero,3,1,5,4,3,3,2,Yes,0,1,0,0,0,0,0,0,1,1,1,1,1,3
+Female,From 20 to 29,Employed,"RM25,000 - RM50,000",Rarely,Take away,Below 30 minutes,within 1km,No,Less than RM20,3,4,5,4,3,4,2,Yes,0,0,1,0,0,0,0,0,1,0,0,1,0,9
+Male,Below 20,Student,"Less than RM25,000",Rarely,Drive-thru,Below 30 minutes,within 1km,Yes,Less than RM20,3,3,3,3,3,3,3,Yes,0,0,1,0,0,0,0,0,1,0,0,0,0,7
+Male,40 and above,Employed,"RM100,000 - RM150,000",Rarely,Dine in,Below 30 minutes,more than 3km,Yes,Around RM20 - RM40,4,4,4,4,2,3,4,Yes,0,1,0,0,0,0,0,0,1,0,0,0,1,4
+Female,Below 20,Student,"Less than RM25,000",Rarely,Dine in,Below 30 minutes,more than 3km,No,Less than RM20,3,3,2,2,2,4,3,No,0,0,1,0,0,0,0,0,1,0,0,1,0,7
+Female,40 and above,Housewife,"Less than RM25,000",Monthly,Take away,Below 30 minutes,more than 3km,Yes,More than RM40,5,4,3,5,3,5,5,Yes,0,0,1,0,1,0,1,0,1,1,0,1,0,2
+Female,Below 20,Student,"Less than RM25,000",Rarely,Drive-thru,Below 30 minutes,more than 3km,No,Around RM20 - RM40,3,3,2,3,3,3,3,Yes,0,1,0,0,0,0,0,0,1,0,0,0,0,7
+Female,From 20 to 29,Employed,"RM25,000 - RM50,000",Rarely,Take away,Between 30 minutes to 1 hour,within 1km,Yes,Around RM20 - RM40,4,3,5,4,4,5,5,Yes,0,1,0,0,0,0,0,0,1,0,0,1,0,2
+Female,From 20 to 29,Employed,"RM25,000 - RM50,000",Monthly,Take away,Between 30 minutes to 1 hour,1km - 3km,Yes,Less than RM20,4,3,4,3,2,3,4,Yes,0,1,0,0,0,0,0,0,0,1,0,0,0,0
+Female,From 20 to 29,Employed,"Less than RM25,000",Rarely,Drive-thru,Below 30 minutes,1km - 3km,No,Around RM20 - RM40,5,4,3,4,3,3,3,Yes,0,1,1,0,0,0,0,0,0,0,0,0,1,4
+Male,Below 20,Student,"Less than RM25,000",Monthly,Dine in,Between 30 minutes to 1 hour,more than 3km,Yes,Less than RM20,5,5,5,5,5,5,5,Yes,0,1,0,0,0,0,0,0,0,0,0,1,0,2
+Male,Below 20,Student,"Less than RM25,000",Monthly,Dine in,Below 30 minutes,1km - 3km,No,Less than RM20,3,3,3,3,4,3,3,Yes,0,1,0,0,0,0,0,0,1,0,0,0,0,7
+Female,From 20 to 29,Student,"Less than RM25,000",Rarely,Drive-thru,Below 30 minutes,more than 3km,No,Less than RM20,4,3,4,4,3,4,3,Yes,0,0,1,0,0,0,0,0,1,1,0,0,0,9
+Male,From 20 to 29,Student,"Less than RM25,000",Rarely,Dine in,Between 1 hour to 2 hours,1km - 3km,Yes,More than RM40,2,1,5,1,4,3,3,Yes,0,1,0,0,0,0,0,0,1,0,0,0,0,6
+Female,From 20 to 29,Employed,"Less than RM25,000",Rarely,Drive-thru,Below 30 minutes,1km - 3km,No,Around RM20 - RM40,5,4,3,4,3,3,3,Yes,0,1,1,0,0,0,0,0,0,0,0,0,1,4
+Male,From 30 to 39,Student,"Less than RM25,000",Rarely,Dine in,Between 30 minutes to 1 hour,more than 3km,No,Around RM20 - RM40,3,3,4,3,3,3,3,Yes,0,1,0,0,0,0,0,0,1,0,0,0,0,7
+Male,From 20 to 29,Employed,"Less than RM25,000",Rarely,Take away,Between 30 minutes to 1 hour,within 1km,Yes,Less than RM20,4,2,3,5,4,4,5,Yes,0,1,0,0,0,0,0,0,1,0,0,1,0,8
+Female,From 20 to 29,Employed,"Less than RM25,000",Rarely,Take away,Below 30 minutes,more than 3km,No,Zero,3,1,5,3,4,4,5,No,0,1,0,0,0,0,0,0,1,0,0,0,0,3
+Female,From 20 to 29,Student,"Less than RM25,000",Rarely,Dine in,Between 30 minutes to 1 hour,1km - 3km,No,Less than RM20,4,3,2,4,3,4,4,No,0,1,0,0,0,0,0,0,0,0,0,1,0,8
+Female,From 20 to 29,Self-employed,"RM25,000 - RM50,000",Monthly,Dine in,Below 30 minutes,within 1km,Yes,Around RM20 - RM40,4,3,4,5,4,4,4,Yes,0,1,1,0,0,0,1,1,1,1,1,1,0,2
+Female,From 20 to 29,Self-employed,"Less than RM25,000",Never,Never buy,Below 30 minutes,more than 3km,No,Zero,3,3,3,3,3,3,3,No,0,0,0,0,0,1,0,0,0,0,0,0,0,7
+Female,From 20 to 29,Employed,"Less than RM25,000",Rarely,Dine in,Below 30 minutes,more than 3km,No,Zero,2,1,5,4,4,4,1,No,0,1,0,0,0,0,0,0,1,1,0,1,0,6
+Female,From 20 to 29,Employed,"RM25,000 - RM50,000",Rarely,Dine in,Between 30 minutes to 1 hour,1km - 3km,Yes,Less than RM20,3,3,5,4,3,3,4,Yes,0,0,1,0,0,0,0,0,1,0,0,1,1,3
+Female,From 20 to 29,Employed,"Less than RM25,000",Rarely,Take away,Below 30 minutes,within 1km,No,Less than RM20,4,3,4,5,5,5,3,Yes,0,1,0,0,0,0,0,0,1,0,0,1,0,9
+Male,From 20 to 29,Employed,"RM25,000 - RM50,000",Weekly,Take away,Between 1 hour to 2 hours,within 1km,Yes,Around RM20 - RM40,5,1,3,3,2,3,3,Yes,0,1,0,0,0,0,0,1,1,1,0,0,0,0
+Female,From 20 to 29,Employed,"Less than RM25,000",Monthly,Take away,Below 30 minutes,more than 3km,Yes,Less than RM20,4,2,4,4,3,4,3,Yes,0,1,0,0,0,0,0,0,0,0,0,1,0,3
+Male,From 30 to 39,Employed,"Less than RM25,000",Rarely,Take away,Below 30 minutes,1km - 3km,Yes,Less than RM20,3,2,4,4,4,5,4,Yes,0,0,1,0,0,0,0,0,1,1,0,0,0,3
+Female,From 20 to 29,Housewife,"RM50,000 - RM100,000",Rarely,Drive-thru,Below 30 minutes,more than 3km,No,Around RM20 - RM40,3,2,3,3,3,5,4,Yes,0,1,1,0,0,0,0,0,1,0,0,0,0,3
+Male,From 20 to 29,Employed,"RM25,000 - RM50,000",Rarely,Take away,Below 30 minutes,more than 3km,Yes,Less than RM20,3,3,4,5,4,4,4,Yes,0,1,0,0,0,0,0,0,1,1,0,1,0,2
+Male,From 20 to 29,Employed,"Less than RM25,000",Rarely,Take away,Below 30 minutes,1km - 3km,No,Less than RM20,4,2,5,3,2,4,4,Yes,0,1,0,0,0,0,0,0,1,0,1,1,0,3
+Male,From 20 to 29,Employed,"RM50,000 - RM100,000",Monthly,Dine in,Between 30 minutes to 1 hour,more than 3km,Yes,Around RM20 - RM40,4,2,1,4,1,4,4,Yes,0,1,0,0,0,0,0,0,1,0,0,0,0,0
+Female,From 20 to 29,Student,"Less than RM25,000",Rarely,Take away,Below 30 minutes,more than 3km,No,Less than RM20,2,1,5,2,2,2,2,No,0,1,0,0,0,0,0,0,1,0,0,1,0,6
+Female,Below 20,Student,"Less than RM25,000",Rarely,Take away,Below 30 minutes,more than 3km,No,Less than RM20,2,2,3,2,2,2,2,No,0,0,1,0,0,0,0,0,1,1,0,0,0,6
+Female,From 20 to 29,Employed,"RM50,000 - RM100,000",Monthly,Drive-thru,More than 3 hours,1km - 3km,Yes,Around RM20 - RM40,3,2,4,3,1,3,3,No,0,1,0,0,0,0,0,0,0,1,0,0,0,0
+Male,From 20 to 29,Employed,"Less than RM25,000",Never,Not Answered,Below 30 minutes,more than 3km,No,Zero,1,1,1,3,3,3,3,No,0,0,0,0,0,1,0,0,0,0,0,0,0,5
+Male,From 20 to 29,Self-employed,"RM50,000 - RM100,000",Rarely,Dine in,Between 1 hour to 2 hours,more than 3km,Yes,Less than RM20,5,5,5,5,5,5,5,Yes,0,0,1,0,0,0,0,0,0,1,0,0,0,2
+Male,From 30 to 39,Self-employed,"RM50,000 - RM100,000",Weekly,Take away,Between 30 minutes to 1 hour,1km - 3km,Yes,Less than RM20,4,4,2,4,3,4,5,Yes,0,1,0,0,0,0,0,0,1,0,0,0,0,8
+Male,From 20 to 29,Employed,"RM25,000 - RM50,000",Rarely,Dine in,Between 1 hour to 2 hours,more than 3km,No,Around RM20 - RM40,4,2,4,3,4,4,4,No,0,1,0,0,0,0,0,0,0,0,0,0,1,4
+Male,From 30 to 39,Self-employed,"More than RM150,000",Monthly,Dine in,Between 2 hours to 3 hours,more than 3km,Yes,Around RM20 - RM40,4,3,4,4,3,4,4,Yes,0,0,0,1,0,0,0,0,0,1,1,0,0,4
+Male,From 20 to 29,Self-employed,"More than RM150,000",Rarely,Drive-thru,Between 30 minutes to 1 hour,more than 3km,Yes,More than RM40,4,3,2,3,1,2,2,Yes,0,1,0,0,0,0,0,0,1,0,0,1,0,0
+Female,From 20 to 29,Employed,"Less than RM25,000",Rarely,Dine in,Below 30 minutes,1km - 3km,Yes,Around RM20 - RM40,3,3,3,4,3,3,3,Yes,0,1,0,0,0,0,0,0,1,0,0,1,0,7
+Female,From 20 to 29,Employed,"RM25,000 - RM50,000",Rarely,Take away,Below 30 minutes,within 1km,Yes,Around RM20 - RM40,4,4,4,4,4,4,4,Yes,1,0,0,0,0,0,0,0,1,1,0,1,0,2
+Male,From 20 to 29,Self-employed,"RM25,000 - RM50,000",Rarely,Dine in,Below 30 minutes,1km - 3km,Yes,Zero,5,5,5,5,4,5,5,Yes,0,0,1,0,0,0,0,0,0,1,0,0,0,2
+Female,From 30 to 39,Employed,"RM50,000 - RM100,000",Weekly,Dine in,Between 1 hour to 2 hours,more than 3km,Yes,Around RM20 - RM40,4,4,5,4,4,5,4,Yes,0,1,0,0,0,0,0,0,0,0,1,0,0,2
+Female,From 30 to 39,Employed,"RM25,000 - RM50,000",Monthly,Take away,Between 30 minutes to 1 hour,within 1km,Yes,Around RM20 - RM40,4,3,4,5,5,4,5,Yes,0,1,0,0,0,0,1,0,1,1,1,1,0,2
+Female,From 20 to 29,Employed,"RM25,000 - RM50,000",Never,Dine in,Below 30 minutes,within 1km,No,Zero,3,3,3,3,3,3,3,No,0,1,0,0,0,0,0,0,1,0,0,0,0,7
+Female,From 20 to 29,Employed,"Less than RM25,000",Rarely,Take away,Below 30 minutes,more than 3km,Yes,Less than RM20,5,3,5,5,4,4,1,Yes,0,1,0,0,0,0,0,0,1,0,0,0,1,9
+Male,From 20 to 29,Employed,"RM50,000 - RM100,000",Monthly,Take away,Below 30 minutes,more than 3km,Yes,Around RM20 - RM40,3,1,3,3,1,3,2,Yes,0,1,0,0,0,0,0,0,1,0,0,1,0,0
+Female,From 20 to 29,Employed,"RM25,000 - RM50,000",Rarely,Dine in,Between 30 minutes to 1 hour,1km - 3km,Yes,Less than RM20,3,3,5,4,3,3,4,Yes,0,0,1,0,0,0,0,0,1,0,0,1,1,3
+Female,From 20 to 29,Self-employed,"Less than RM25,000",Rarely,Take away,Below 30 minutes,more than 3km,No,Less than RM20,3,3,1,4,3,4,4,Yes,0,0,1,0,0,0,0,0,1,0,0,1,0,8
+Female,From 30 to 39,Employed,"Less than RM25,000",Rarely,I dont like coffee,Below 30 minutes,within 1km,No,Around RM20 - RM40,3,3,3,3,3,3,3,Yes,0,0,0,0,0,0,1,0,1,0,0,0,0,7
+Female,From 20 to 29,Employed,"RM25,000 - RM50,000",Rarely,Drive-thru,Below 30 minutes,1km - 3km,Yes,Around RM20 - RM40,4,3,4,3,3,4,4,Yes,0,1,0,0,0,0,0,0,0,1,1,0,0,4
+Male,From 30 to 39,Employed,"Less than RM25,000",Rarely,Drive-thru,Between 30 minutes to 1 hour,more than 3km,Yes,Less than RM20,4,2,3,4,4,4,4,Yes,0,1,0,0,0,0,0,0,1,0,0,0,0,8
+Male,From 20 to 29,Student,"Less than RM25,000",Rarely,Drive-thru,Between 30 minutes to 1 hour,more than 3km,No,Around RM20 - RM40,3,2,3,3,3,3,3,Yes,0,0,1,0,0,0,0,0,0,0,0,1,0,7
+Male,From 20 to 29,Student,"Less than RM25,000",Rarely,Dine in,Between 30 minutes to 1 hour,more than 3km,No,Less than RM20,3,4,3,3,1,2,3,Yes,0,1,0,0,0,0,0,0,0,0,0,1,0,7
+Male,From 20 to 29,Self-employed,"RM50,000 - RM100,000",Daily,Drive-thru,Below 30 minutes,more than 3km,Yes,Around RM20 - RM40,4,2,4,4,3,3,3,Yes,0,1,0,0,0,0,0,0,1,0,1,0,0,0
+Male,From 30 to 39,Employed,"RM25,000 - RM50,000",Weekly,Dine in,Between 1 hour to 2 hours,more than 3km,No,More than RM40,4,5,5,4,4,3,3,Yes,0,1,0,0,0,0,1,0,1,1,0,1,0,4
+Male,Below 20,Student,"Less than RM25,000",Rarely,Drive-thru,Between 30 minutes to 1 hour,more than 3km,No,Less than RM20,4,4,4,4,4,4,4,No,0,0,0,0,0,0,1,0,1,0,1,0,0,2
+Male,40 and above,Employed,"RM50,000 - RM100,000",Monthly,Drive-thru,Between 30 minutes to 1 hour,more than 3km,No,Around RM20 - RM40,4,3,5,4,4,4,4,Yes,0,0,1,0,0,0,0,0,0,1,0,0,0,4
+Male,From 20 to 29,Student,"Less than RM25,000",Rarely,Take away,Below 30 minutes,more than 3km,No,Around RM20 - RM40,3,3,3,3,3,3,3,Yes,0,1,0,0,0,0,0,0,1,1,0,0,0,7
+Female,Below 20,Student,"Less than RM25,000",Never,Never,Below 30 minutes,more than 3km,No,Zero,3,2,2,2,3,3,3,Yes,0,0,0,0,0,1,0,0,1,1,0,1,0,7
+Male,From 20 to 29,Student,"Less than RM25,000",Never,never,Below 30 minutes,within 1km,No,Zero,3,3,3,1,3,3,4,No,0,0,0,0,0,1,0,0,0,0,0,1,0,7
+Male,From 20 to 29,Student,"Less than RM25,000",Rarely,Dine in,Below 30 minutes,more than 3km,No,Less than RM20,3,3,3,3,3,3,2,No,0,1,0,0,0,0,1,0,1,0,0,0,0,7
+Male,From 20 to 29,Student,"Less than RM25,000",Rarely,Take away,Below 30 minutes,more than 3km,No,Zero,4,2,3,5,4,4,2,No,0,0,1,0,0,0,0,0,1,0,0,0,0,9
+Female,From 20 to 29,Employed,"Less than RM25,000",Monthly,Take away,Below 30 minutes,more than 3km,No,Less than RM20,5,4,4,4,4,4,4,Yes,0,0,1,0,0,0,0,0,1,0,0,1,1,2
+Male,From 20 to 29,Student,"More than RM150,000",Never,Never ,Below 30 minutes,more than 3km,No,Zero,1,1,1,1,1,1,1,No,0,0,0,0,0,1,0,0,0,0,0,0,1,1
+Female,Below 20,Student,"Less than RM25,000",Rarely,Take away,Below 30 minutes,more than 3km,No,Less than RM20,3,4,5,5,5,4,4,Yes,0,0,1,0,0,0,0,0,1,0,0,0,0,2
+Male,40 and above,Self-employed,"RM25,000 - RM50,000",Rarely,Dine in,Between 30 minutes to 1 hour,more than 3km,No,Less than RM20,2,2,1,2,2,3,2,No,0,0,1,0,0,0,0,0,0,0,0,0,1,5
+Male,Below 20,Student,"Less than RM25,000",Daily,Take away,Below 30 minutes,more than 3km,No,Around RM20 - RM40,5,5,5,5,5,5,5,Yes,0,0,1,0,0,0,0,0,1,0,0,1,0,2
+Male,From 30 to 39,Student,"Less than RM25,000",Monthly,Dine in,Between 1 hour to 2 hours,more than 3km,No,Less than RM20,4,4,5,4,2,3,4,Yes,0,0,1,0,0,0,0,0,1,0,0,0,0,4
+Male,40 and above,Self-employed,"RM25,000 - RM50,000",Monthly,Dine in,Between 1 hour to 2 hours,1km - 3km,Yes,Around RM20 - RM40,3,3,5,3,2,4,4,Yes,0,1,0,0,0,0,0,0,1,1,0,0,0,0
+Male,From 20 to 29,Employed,"Less than RM25,000",Monthly,Dine in,Between 1 hour to 2 hours,1km - 3km,Yes,More than RM40,5,5,5,5,5,5,5,Yes,0,1,1,0,1,0,1,1,1,1,1,1,1,2
+Male,From 20 to 29,Student,"Less than RM25,000",Rarely,Dine in,Between 30 minutes to 1 hour,1km - 3km,No,Less than RM20,3,2,4,3,3,3,4,No,0,1,1,0,0,0,0,0,1,0,0,1,1,6
+Female,From 20 to 29,Employed,"Less than RM25,000",Rarely,Take away,Below 30 minutes,within 1km,No,Less than RM20,4,4,4,4,4,4,4,Yes,0,1,0,0,0,0,0,0,1,0,0,1,1,2
+Male,From 20 to 29,Employed,"RM50,000 - RM100,000",Rarely,Dine in,Between 30 minutes to 1 hour,1km - 3km,No,Less than RM20,1,1,5,4,3,3,2,No,0,1,0,0,0,0,0,0,0,0,0,0,1,6
